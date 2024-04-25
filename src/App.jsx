@@ -44,6 +44,7 @@ function App() {
                     onChange={(e) => setName(e.target.value)}
                 />
             </MDBContainer>
+            {/* Made a condition check from breaking the code. The card will be visible with valid city name only. */}
             {data !== null && (
                 <section
                     className="vh-100 w-96 my-4"
